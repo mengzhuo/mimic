@@ -12,9 +12,9 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - riscv64_generic
+          - siflower-sf21
         revision:
-          - bb1910b45d94b1869fb7ddadda85ea92
+          - SNAPSHOT
     steps:
       - uses: actions/checkout@v4
         with:

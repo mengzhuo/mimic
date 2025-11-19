@@ -16,6 +16,7 @@ jobs:
           - arm_cortex-a7
           - aarch64_generic
           - mipsel_24kc
+          - riscv64_generic
         revision:
           - SNAPSHOT
           - openwrt-24.10
